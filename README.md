@@ -1,4 +1,4 @@
-<img width="220" height="229" alt="image" src="https://github.com/user-attachments/assets/b17f455a-9819-42b4-b432-83ac1e76458d" /><h1 align="center">Hi 👋, I'm Isa</h1>
+<h1 align="center">Hi 👋, I'm Isa</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=isashaikh&label=Profile%20views&color=0e75b6&style=flat" alt="isashaikh" /> </p>
