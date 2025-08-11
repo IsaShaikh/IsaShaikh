@@ -43,10 +43,7 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Isa-Shaikh&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=Isa-Shaikh&theme=tokyonight&hide_border=true" />
-</p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=isashaikh&show_icons=true&locale=en&layout=compact" alt="isashaikh" /></p>
 
 ---
 
