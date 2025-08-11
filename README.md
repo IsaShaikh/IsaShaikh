@@ -45,6 +45,8 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=isashaikh&show_icons=true&locale=en&layout=compact" alt="isashaikh" /></p>
 
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
 ---
 
 <p align="center">
