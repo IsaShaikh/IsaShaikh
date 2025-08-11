@@ -34,19 +34,18 @@
 
 ---
 
-## 📌 Featured Projects
+## 🌐 Connect With Me
 
-- **Matrix Calculator** → Step-by-step matrix operations in Java & Python.  
-- **Face Detection Attendance System** → ESP32-CAM & email alerts.  
-- **Smart Management for Small Businesses** → Full ERP-style web app.  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isa-shaikh-299373268/)
+[![GitHub](https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Isa-Shaikh)
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Isa-Shaikh&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Isa-Shaikh&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Isa-Shaikh&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=Isa-Shaikh&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
@@ -54,3 +53,4 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00C2CB&height=100&section=footer"/>
 </p>
+
