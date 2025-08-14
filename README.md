@@ -1,5 +1,5 @@
 <!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=ff9100&width=600&lines=Hi%2C+I'm+Isa+Shaikh;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+TypeScript+%7C+MySQL;C+%7C+CPP+%7C+Laravel+%7C+PostgreSQL;Passionate+About+Innovation+%26+Tech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=ff3333&width=600&lines=Hi%2C+I'm+Isa+Shaikh;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+TypeScript+%7C+MySQL;C+%7C+CPP+%7C+Laravel+%7C+PostgreSQL;Passionate+About+Innovation+%26+Tech)](https://git.io/typing-svg)
 
 ---
 
