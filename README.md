@@ -29,13 +29,16 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-c3eb3f?style=for-the-badge&logo=python&logoColor=black)
 
 **Tools & Platforms:**  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-175711?style=for-the-badge&logo=androidstudio&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-11024a?style=for-the-badge&logo=intellijidea&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-28bf28?style=for-the-badge&logo=pycharm&logoColor=white) 
 
 ---
 
