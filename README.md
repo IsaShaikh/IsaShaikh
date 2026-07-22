@@ -1,12 +1,12 @@
-<!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=ff3333&width=600&lines=Hi%2C+I'm+Isa+Shaikh;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+TypeScript+%7C+MySQL;C+%7C+CPP+%7C+Laravel+%7C+PostgreSQL;Passionate+About+Innovation+%26+Tech)](https://git.io/typing-svg)
-
----
-
 <!-- Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00C2CB&height=200&section=header&text=Welcome%20to%20My%20GitHub!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
+
+---
+<!-- Typing animation -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=ff3333&width=600&lines=Hi%2C+I'm+Isa+Shaikh;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+TypeScript+%7C+MySQL;C+%7C+CPP+%7C+Laravel+%7C+PostgreSQL;Passionate+About+Innovation+%26+Tech)](https://git.io/typing-svg)
+
 
 ---
 
