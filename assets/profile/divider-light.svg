@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" fill="none">
+  <defs>
+    <linearGradient id="div-gl" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="20%" stop-color="#ccc"/>
+      <stop offset="50%" stop-color="#999"/>
+      <stop offset="80%" stop-color="#ccc"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+  </defs>
+  
+  <line x1="100" y1="20" x2="800" y2="20" stroke="url(#div-gl)" stroke-width="0.5"/>
+  
+  <polygon points="450,14 456,20 450,26 444,20" fill="none" stroke="#aaa" stroke-width="0.5"/>
+  
+  <line x1="250" y1="17" x2="250" y2="23" stroke="#bbb" stroke-width="0.5"/>
+  <line x1="350" y1="17" x2="350" y2="23" stroke="#bbb" stroke-width="0.5"/>
+  <line x1="550" y1="17" x2="550" y2="23" stroke="#bbb" stroke-width="0.5"/>
+  <line x1="650" y1="17" x2="650" y2="23" stroke="#bbb" stroke-width="0.5"/>
+</svg>

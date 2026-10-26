@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" fill="none">
+  <defs>
+    <pattern id="grid-l" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e8e8e8" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="accent-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ccc"/>
+      <stop offset="50%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="scan-l" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="45%" stop-color="rgba(0,0,0,0.02)" />
+      <stop offset="50%" stop-color="rgba(0,0,0,0.04)" />
+      <stop offset="55%" stop-color="rgba(0,0,0,0.02)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </linearGradient>
+    <symbol id="mark-l" viewBox="0 0 12 12">
+      <line x1="6" y1="0" x2="6" y2="12" stroke="#bbb" stroke-width="0.5"/>
+      <line x1="0" y1="6" x2="12" y2="6" stroke="#bbb" stroke-width="0.5"/>
+    </symbol>
+  </defs>
+  
+  <rect width="900" height="320" fill="#fafafa"/>
+  <rect width="900" height="320" fill="url(#grid-l)" opacity="0.6"/>
+  
+  <line x1="80" y1="0" x2="80" y2="320" stroke="#e8e8e8" stroke-width="0.5"/>
+  <line x1="820" y1="0" x2="820" y2="320" stroke="#e8e8e8" stroke-width="0.5"/>
+  <line x1="0" y1="60" x2="900" y2="60" stroke="#e8e8e8" stroke-width="0.5"/>
+  <line x1="0" y1="260" x2="900" y2="260" stroke="#e8e8e8" stroke-width="0.5"/>
+  
+  <use href="#mark-l" x="74" y="54" width="12" height="12"/>
+  <use href="#mark-l" x="814" y="54" width="12" height="12"/>
+  <use href="#mark-l" x="74" y="254" width="12" height="12"/>
+  <use href="#mark-l" x="814" y="254" width="12" height="12"/>
+  
+  <text x="72" y="50" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="7" fill="#bbb" text-anchor="end">0,0</text>
+  <text x="828" y="50" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="7" fill="#bbb">1,0</text>
+  <text x="72" y="275" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="7" fill="#bbb" text-anchor="end">0,1</text>
+  <text x="828" y="275" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="7" fill="#bbb">1,1</text>
+  
+  <line x1="80" y1="60" x2="820" y2="60" stroke="url(#accent-l)" stroke-width="0.75"/>
+  
+  <rect x="80" y="60" width="740" height="200" fill="url(#scan-l)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 -200;0 200;0 -200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <text x="450" y="132" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="300" fill="#1a1a1a" text-anchor="middle" letter-spacing="16">ISA SHAIKH</text>
+  
+  <line x1="320" y1="152" x2="580" y2="152" stroke="#bbb" stroke-width="0.5">
+    <animate attributeName="x1" from="450" to="320" dur="1.5s" fill="freeze"/>
+    <animate attributeName="x2" from="450" to="580" dur="1.5s" fill="freeze"/>
+  </line>
+  
+  <text x="450" y="180" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="11" fill="#777" text-anchor="middle" letter-spacing="4">SOFTWARE, BUILT WITH INTENT</text>
+  
+  <text x="450" y="210" font-family="'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#999" text-anchor="middle" letter-spacing="1">Engineering Student · Independent Developer · Elyaro Labs</text>
+  
+  <line x1="80" y1="260" x2="820" y2="260" stroke="url(#accent-l)" stroke-width="0.75"/>
+  
+  <text x="820" y="290" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="7" fill="#bbb" text-anchor="end">est. MMXXIV — mobile · backend · web</text>
+  
+  <path d="M 140 160 Q 200 80, 280 140" stroke="#ddd" stroke-width="0.5" fill="none">
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 760 160 Q 700 240, 620 180" stroke="#ddd" stroke-width="0.5" fill="none">
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </path>
+  
+  <circle cx="80" cy="60" r="1.5" fill="#bbb"/>
+  <circle cx="820" cy="60" r="1.5" fill="#bbb"/>
+  <circle cx="80" cy="260" r="1.5" fill="#bbb"/>
+  <circle cx="820" cy="260" r="1.5" fill="#bbb"/>
+</svg>

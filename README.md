@@ -1,73 +1,222 @@
-<!-- Banner -->
+<!-- Hero -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/hero-light.svg">
+  <img alt="Isa Shaikh — Software, Built With Intent" src="assets/profile/hero-dark.svg" width="100%">
+</picture>
+
+<br>
+
+## About
+
+I'm an engineering student who designs, builds, and ships software — from first architecture decision to final Play Store release.
+
+Through **Elyaro Labs**, my independent software studio, I develop Android applications that solve practical problems with clean interfaces and reliable performance. Every product I publish reflects a deliberate process: understand the problem, design a precise solution, engineer it properly, and ship it.
+
+I work across **mobile development**, **backend systems**, and **web technologies** — not to collect tools, but because building complete software requires thinking across the entire stack.
+
+<br>
+
+<!-- Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/divider-light.svg">
+  <img alt="" src="assets/profile/divider-dark.svg" width="100%">
+</picture>
+
+<br>
+
+## Selected Work
+
+Three published applications. Each built end-to-end — concept, architecture, design, development, and release.
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 01 / PACEPDF                                    -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<table>
+<tr>
+<td width="100" align="center">
+  <img src="assets/profile/pacepdf.png" width="72" alt="PacePDF logo">
+</td>
+<td>
+
+### `01` &nbsp; PacePDF
+
+**Documents, under control.**
+
+A complete PDF reader and document toolkit for Android — built to handle real document workflows entirely on-device. Read, search, merge, split, rotate, crop, reorder, compress, protect, sign, watermark, number pages, and convert between images and PDF.
+
+`Flutter` · `Dart` · `On-Device Processing`
+
+<a href="https://play.google.com/store/apps/details?id=com.pacepdf.app">
+  <img src="https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white" alt="PacePDF on Google Play" height="22">
+</a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 02 / MATHSHEET                                  -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<table>
+<tr>
+<td width="100" align="center">
+  <img src="assets/profile/mathsheet.png" width="72" alt="MathSheet logo">
+</td>
+<td>
+
+### `02` &nbsp; MathSheet
+
+**Practice made deliberate.**
+
+An educational mathematics app combining interactive arithmetic drills with a printable worksheet generator. Supports addition, subtraction, multiplication, division, mixed operations, fractions, decimals, and order of operations — across adjustable difficulty tiers. Generates PDF worksheets with matching answer keys for classrooms, tutoring, and self-study.
+
+`Flutter` · `Dart` · `PDF Generation`
+
+<a href="https://play.google.com/store/apps/details?id=com.alley.math_sheet">
+  <img src="https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white" alt="MathSheet on Google Play" height="22">
+</a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 03 / MATRIXLAB                                  -->
+<!-- ═══════════════════════════════════════════════ -->
+
+<table>
+<tr>
+<td width="100" align="center">
+  <img src="assets/profile/matrixlab.png" width="72" alt="MatrixLab logo">
+</td>
+<td>
+
+### `03` &nbsp; MatrixLab
+
+**Understand the mathematics behind the answer.**
+
+A matrix mathematics studio for Android — designed to bridge abstract linear algebra with interactive, step-by-step problem solving. Performs matrix operations with exact rational arithmetic, visualizes 2D affine transformations, and generates practice worksheets with worked solutions.
+
+`Flutter` · `Dart` · `Linear Algebra`
+
+<a href="https://play.google.com/store/apps/details?id=com.elyarolabs.matrixlab">
+  <img src="https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white" alt="MatrixLab on Google Play" height="22">
+</a>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/divider-light.svg">
+  <img alt="" src="assets/profile/divider-dark.svg" width="100%">
+</picture>
+
+<br>
+
+## Engineering
+
+<table>
+<tr>
+<td valign="top" width="25%">
+
+**Mobile**
+
+`Flutter` · `Dart`\
+`Android` · `Kotlin` · `Java`\
+`Android Studio`
+
+</td>
+<td valign="top" width="25%">
+
+**Backend**
+
+`Spring Boot` · `Java`\
+`PHP`\
+`MySQL` · `PostgreSQL`
+
+</td>
+<td valign="top" width="25%">
+
+**Web**
+
+`JavaScript` · `TypeScript`\
+`React` · `Next.js`\
+`Firebase`
+
+</td>
+<td valign="top" width="25%">
+
+**Languages & Tools**
+
+`C` · `C++` · `Python`\
+`Git` · `GitHub`\
+`VS Code` · `IntelliJ IDEA`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/divider-light.svg">
+  <img alt="" src="assets/profile/divider-dark.svg" width="100%">
+</picture>
+
+<br>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C2CB&height=200&section=header&text=Welcome%20to%20My%20GitHub!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+  <img src="assets/profile/elyaro-labs.png" width="40" alt="Elyaro Labs">
 </p>
 
----
-<!-- Typing animation -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=ff3333&width=600&lines=Hi%2C+I'm+Isa+Shaikh;Full-Stack+Developer;Java+%7C+Spring+Boot+%7C+TypeScript+%7C+MySQL;C+%7C+CPP+%7C+Laravel+%7C+PostgreSQL;Passionate+About+Innovation+%26+Tech)](https://git.io/typing-svg)
-
-
----
-
-## 🚀 About Me
-💻 Full-stack developer passionate about building scalable applications and solving real-world problems.  
-📚 Constant learner with interests in Java, Spring Boot, PHP, SQL, and innovative system designs.  
-🎯 Goal: Deliver professional, fast, and smooth software solutions with no compromises.  
-
----
-
-## 🛠️ Tech Stack
-
-**Languages & Frameworks:**  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-c3eb3f?style=for-the-badge&logo=python&logoColor=black)
-
-**Tools & Platforms:**  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-175711?style=for-the-badge&logo=androidstudio&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-11024a?style=for-the-badge&logo=intellijidea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-28bf28?style=for-the-badge&logo=pycharm&logoColor=white) 
-
----
-
-## 🧩 Contribution
-
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IsaShaikh&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-
-
----
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isa-shaikh-exe/)
-[![GitHub](https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IsaShaikh)
-
----
-
-## 📊 GitHub Stats
-
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=isashaikh&show_icons=true&theme=radical" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=isashaikh&show_icons=true&locale=en&layout=compact&theme=radical" />
+  <strong>Elyaro Labs</strong><br>
+  <sub>Independent software studio — designing and shipping Android tools<br>that respect the user's time, device, and intelligence.</sub>
 </p>
 
-
-
----
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00C2CB&height=100&section=footer"/>
+  <a href="https://elyarolabs.web.app/">elyarolabs.web.app</a>
 </p>
 
+<br>
+
+<!-- Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/divider-light.svg">
+  <img alt="" src="assets/profile/divider-dark.svg" width="100%">
+</picture>
+
+<br>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/isa-shaikh-exe/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/IsaShaikh">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://elyarolabs.web.app/">Elyaro Labs</a>
+</p>
+
+<br>
+
+<!-- Signature -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/signature-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile/signature-light.svg">
+  <img alt="Isa Shaikh · Elyaro Labs" src="assets/profile/signature-dark.svg" width="100%">
+</picture>
