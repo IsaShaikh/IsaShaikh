@@ -1,29 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 140" width="100%" height="100%" fill="none">
   <defs>
-    <linearGradient id="sig-gl" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="transparent"/>
-      <stop offset="30%" stop-color="#ddd"/>
-      <stop offset="70%" stop-color="#ddd"/>
-      <stop offset="100%" stop-color="transparent"/>
+    <linearGradient id="sig-beam-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9C7728" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#B88E36" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#9C7728" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  
-  <line x1="150" y1="20" x2="750" y2="20" stroke="url(#sig-gl)" stroke-width="0.5"/>
-  
-  <g transform="translate(420, 40)">
-    <rect x="0" y="0" width="2" height="30" fill="#999"/>
-    <rect x="12" y="0" width="18" height="2" fill="#999"/>
-    <rect x="12" y="14" width="14" height="2" fill="#999"/>
-    <rect x="16" y="28" width="14" height="2" fill="#999"/>
-    <rect x="38" y="0" width="2" height="14" fill="#999"/>
-    <rect x="24" y="16" width="2" height="14" fill="#999"/>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Bounding architectural lines -->
+  <line x1="80" y1="20" x2="840" y2="20" stroke="#D1D6E2" stroke-width="0.75"/>
+  <line x1="80" y1="20" x2="240" y2="20" stroke="url(#sig-beam-light)" stroke-width="1.25">
+    <animate attributeName="x1" values="80;680;80" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="240;840;240" dur="10s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Left Precision Index -->
+  <g transform="translate(80, 20)">
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#9C7728" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.5" fill="#9C7728"/>
   </g>
-  
-  <text x="450" y="95" font-family="'SF Mono', 'Cascadia Code', 'Consolas', monospace" font-size="8" fill="#888" text-anchor="middle" letter-spacing="6">ELYARO LABS</text>
-  
-  <line x1="150" y1="110" x2="750" y2="110" stroke="url(#sig-gl)" stroke-width="0.5"/>
-  
-  <rect x="418" y="38" width="44" height="34" fill="none" stroke="#bbb" stroke-width="0.3" rx="2" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>
-  </rect>
+
+  <!-- Right Precision Index -->
+  <g transform="translate(840, 20)">
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#9C7728" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.5" fill="#9C7728"/>
+  </g>
+
+  <!-- Center Identity Block -->
+  <g transform="translate(460, 48)">
+    <text x="0" y="0" class="mono" font-size="8" fill="#9C7728" text-anchor="middle" letter-spacing="2">REGISTERED IDENTITY // MUMBAI, INDIA</text>
+    <text x="0" y="24" class="sans" font-size="20" font-weight="700" fill="#11141A" text-anchor="middle" letter-spacing="6">ISA SHAIKH</text>
+    <text x="0" y="44" class="mono" font-size="9" fill="#4B5565" text-anchor="middle" letter-spacing="1.5">ENGINEERING STUDENT  ·  INDEPENDENT DEVELOPER  ·  ELYARO LABS</text>
+    <text x="0" y="60" class="mono" font-size="7.5" fill="#828E9E" text-anchor="middle" letter-spacing="1">DETERMINISTIC SYSTEMS  //  MATHEMATICAL RIGOR  //  SOFTWARE CRAFT</text>
+  </g>
+
+  <!-- Bottom Terminal Line -->
+  <line x1="80" y1="120" x2="840" y2="120" stroke="#D1D6E2" stroke-width="0.75"/>
+  <g transform="translate(460, 120)">
+    <polygon points="0,-3 3,0 0,3 -3,0" fill="#9C7728"/>
+  </g>
 </svg>

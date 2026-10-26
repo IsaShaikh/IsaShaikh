@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 38" width="160" height="38" fill="none">
+  <rect x="0.5" y="0.5" width="159" height="37" rx="6" fill="#0A0D14" stroke="#C5A059" stroke-width="1"/>
+  <!-- Fold geometric compass mark -->
+  <g transform="translate(14, 11)">
+    <circle cx="8" cy="8" r="7.5" fill="none" stroke="#C5A059" stroke-width="1"/>
+    <path d="M 4 8 L 8 4 L 12 8 L 8 12 Z" fill="#C5A059"/>
+  </g>
+  <text x="36" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E5C07B" letter-spacing="0.5">elyarolabs.web.app</text>
+</svg>
